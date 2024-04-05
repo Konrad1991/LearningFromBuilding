@@ -1,8 +1,10 @@
 
 #include "linkedlists.hpp"
+#define CATCH_CONFIG_MAIN
+// #include "../catch/catch.hpp"
+
 
 int main() {
-  /*
   srand(time(nullptr));
   int i = 1;
   linkedList<int> list(i);
@@ -24,5 +26,4 @@ int main() {
   for(size_t i = 0; i < list.sz(); i++) {
     std::cout << list[i] << std::endl;
   }
-  */
 }
