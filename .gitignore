@@ -1,3 +1,6 @@
+$ git status
+$ cat .git/info/exclude
+
 *.[oa]
 *.so
 *.gcda
