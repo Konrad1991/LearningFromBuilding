@@ -1,0 +1,11 @@
+*.[oa]
+*.so
+*.gcda
+*.gcno
+*.out
+*.html
+a.out
+
+/.cache/
+
+./catch/catch.hpp 
