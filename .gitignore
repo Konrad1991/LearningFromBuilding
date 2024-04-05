@@ -11,5 +11,5 @@ a.out
 
 /.cache/
 
-./catch/catch.hpp 
-./catch/
+/catch/catch.hpp 
+/catch/
