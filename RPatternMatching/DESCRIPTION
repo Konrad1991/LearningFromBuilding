@@ -1,0 +1,12 @@
+Package: RPatternMatching
+Type: Package
+Title: pattern matching implemented in R
+Version: 0.1
+Date: 2023-07-06
+Author: Krämer Konrad [aut, cre]
+Maintainer: Krämer Konrad <konrad_kraemer@yahoo.de>
+Description: enables users to use pattern matching in a similar way as in pure functional programming languages.
+Suggests: tinytest
+License: GPL-2
+Encoding: UTF-8
+RoxygenNote: 7.3.1
