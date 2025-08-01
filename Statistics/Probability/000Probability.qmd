@@ -1,0 +1,58 @@
+---
+title: "Exploring Probability Distributions in R"
+output: html_document
+---
+
+## Probability Theory
+
+- Probability = qunatifying uncertainty
+- sample space $\Omega$ = set of possible outcomes of an experiment
+- points $\omega$ in $\Omega$ = realisation, sample outcomes or elements
+
+
+::: {.callout-important}
+- $\Omega$ = sample space
+- $\omega$ = outcome (point or element)
+- A = event (subset of $\Omega$)
+- A^c = complement of A (not A)
+- $A \cup B$ = union (A or B)
+- $A \cap B$ = intersection (A and B)
+- A - B = set difference ($\omega$ in A but not in B)
+- $A \subset B$ = set inclusion (A is part of B, A is a subset of B)
+- $\emptyset$ = null event (always false)
+- $\Omega$ = true event (always true)
+:::
+
+- disjoint
+  - Two sets are disjoint if they have no elements in common
+    * Example: $A = \{1, 2\}, B = \{3, 4\}$
+  - A1, A2, ... are disjoint or are mutually exclusive if:
+  $A_i \cap A_j = \emptyset$ whenever $i \neq j$
+
+### Cumulative Distribution Function (CDF)
+
+### Probability Density / Mass Functions (PDF/PMF)
+
+#### PDF and CDF in R
+{{< include  001Distris.qmd >}}
+
+#### Empericical CDF
+{{< include  002ECDF.qmd >}}
+
+### Bayes’ Theorem
+
+### Likelihood and Maximum Likelihood Estimation (MLE)
+
+#### Fit a distribution to a dataset
+{{< include  003Likelihood.qmd >}}
+
+#### Central Limit Theorem (CLT)
+
+#### Key Probability Distributions:
+  * Normal
+  * Log-Normal
+  * Bernoulli
+  * Binomial
+  * Poisson
+
+#### Moments (mean, variance, skewness, kurtosis)
